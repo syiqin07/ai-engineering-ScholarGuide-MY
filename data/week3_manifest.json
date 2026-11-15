@@ -1,0 +1,31 @@
+{
+  "project": "ScholarGuide-MY",
+  "week": 3,
+  "part": "B",
+  "created_date": "2026-11-16",
+  "preparation_format": "JSONL",
+  "record_files": [
+    {
+      "path": "data/processed/source_records.jsonl",
+      "record_type": "source",
+      "record_count": 3,
+      "sha256": "0430429d991372c3dcad6d2c54dc2725322a743477de10832d7928a2a50a09a4"
+    },
+    {
+      "path": "data/processed/opportunity_records.jsonl",
+      "record_type": "opportunity_or_catalogue",
+      "record_count": 4,
+      "sha256": "e1b9d8fe1f6701877b38b827bdecb1fd8e15cb290266fe8292e6402006eb3658"
+    }
+  ],
+  "source_ids": [
+    "SRC-MOHE-001",
+    "SRC-PTPTN-001",
+    "SRC-MARA-001"
+  ],
+  "limitations": [
+    "These are initial manually curated records based on inspected official pages, not a complete live scholarship dataset.",
+    "JPA was excluded because its official page could not be inspected successfully during the source review.",
+    "No embeddings, vector database, or retrieval index are created in Part B."
+  ]
+}
